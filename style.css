@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 1.8rem;
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  margin: 0.625rem;
+  position: relative;
+  transition: flex 0.5s ease-in;
+}
+
+.panel h3 {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
