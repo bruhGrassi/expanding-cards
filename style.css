@@ -74,9 +74,20 @@ body {
   opacity: 1;
 }
 
+.credit {
+  font-size: 0.7rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  width: 100%;
+  text-align: right;
+  display: block;
+}
+
 @media (max-width: 480px) {
   .container {
     width: 100vw;
+    padding-right: 2rem;
   }
 
   .panel:nth-of-type(4),
