@@ -4,6 +4,8 @@ This project, "Expanding Cards," was created as a study exercise to practice and
 
 ![paineis](https://github.com/bruhGrassi/expanding-cards/blob/master/Expaing-cards.png?raw=true)
 
+[https://bruhgrassi.github.io/expanding-cards/](https://bruhgrassi.github.io/expanding-cards/)
+
 ## Code Practices and Principles Followed
 
 ### 1. Semantic HTML:
