@@ -30,6 +30,6 @@ This project, "Expanding Cards," was created as a study exercise to practice and
     The CSS uses a consistent and readable style, with properties grouped logically and comments added for clarity.
     Use of root-level CSS variables (:root) for setting the base font size, making it easier to manage and scale the typography.
 
-    # 6. JavaScript Best Practices:
+    # 7. JavaScript Best Practices:
 
     The code is modular and reusable, with clear functions defined for specific tasks.
