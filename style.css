@@ -99,9 +99,7 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    width: 100%;
-    padding-right: 0.5rem;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 12rem);
   }
 
   .panel {
