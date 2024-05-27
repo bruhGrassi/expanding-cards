@@ -99,8 +99,13 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    width: 100vw;
-    padding-right: 2rem;
+    width: 100%;
+    padding-right: 0.5rem;
+    height: calc(100vh - 2rem);
+  }
+
+  .panel {
+    margin: 0.3125rem 0.15625rem;
   }
 
   .panel:nth-of-type(4),
